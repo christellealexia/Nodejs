@@ -16,4 +16,11 @@ fs.writeFile('./docs/blog1.text','Hello world', ()=> {
     fs.writeFile('./docs/blog2.text','Hello world', ()=> {
         console.log('File written');
         });
+// directories
 
+fs.mkdir('./assets',(err) => {
+    if(err){
+        console.log(err)
+    }
+    console.log('folder created')
+})
