@@ -13,4 +13,7 @@ console.log(data.toString())
 fs.writeFile('./docs/blog1.text','Hello world', ()=> {
     console.log('File written');
     });
+    fs.writeFile('./docs/blog2.text','Hello world', ()=> {
+        console.log('File written');
+        });
 
